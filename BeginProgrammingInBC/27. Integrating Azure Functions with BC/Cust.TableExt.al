@@ -17,22 +17,3 @@ tableextension 50143 CustExt extends Customer
     end;
 
 }
-
-pageextension 50122 MyroleCenter extends "Accountant Role Center"
-{
-    layout
-    {
-        addafter(Control76)
-        {
-            part(Control7655; "Headline RC Accountant")
-            {
-                ApplicationArea = Basic, Suite;
-            }
-            part(Control99999; "Finance Performance")
-            {
-                ApplicationArea = Basic, Suite;
-                Visible = false;
-            }
-        }
-    }
-}
