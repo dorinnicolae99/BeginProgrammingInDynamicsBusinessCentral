@@ -1,0 +1,11 @@
+{
+    "name": "My Custom ruleset",
+    "description": "Here are some new rules that I wanto to apply to my project",
+    "rules": [
+        {
+            "id": "AA0228",
+            "action": "Info",
+            "justification": "Dont allow unused procedures"
+        }
+    ]
+}
